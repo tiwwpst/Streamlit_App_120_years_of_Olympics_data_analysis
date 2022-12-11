@@ -139,7 +139,7 @@ if options == "All medals with descriptions of the year, country and sport":
 if options == "The right parameters to win a medal":
     st.header("The right parameters to win a medal")
     lottie_coding = load_lottiefile(
-        "/Users/maximsukhoparov/PycharmProjects/Streamlit_App/96783-medal-achievements.json"
+        "96783-medal-achievements.json"
     )
     lottie_hello = load_lottieurl(
         "https://assets7.lottiefiles.com/packages/lf20_x7cjigjf.json"
