@@ -1,11 +1,6 @@
-ipython==8.7.0
-matplotlib==3.6.2
-numpy==1.23.3
-pandas==1.5.0
-plotly==5.11.0
-requests==2.28.1
-seaborn==0.12.1
-streamlit==1.15.2
-streamlit_extras==0.2.4
-streamlit_lottie==0.0.3
-statsmodel
+streamlit
+matplotlib
+numpy
+plotly
+seaborn
+streamlit_lottie
