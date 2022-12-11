@@ -17,7 +17,6 @@ from Overview import (
     participants_with_medal,
 )
 
-st.set_page_config(layout="centered")
 st.title("Participants' Age Info")
 st.sidebar.title("Navigation")
 st.set_option("deprecation.showPyplotGlobalUse", False)
@@ -56,7 +55,7 @@ if options == "Age of Participants by Year":
         trendline="ols",
         template="simple_white",
         width=900,
-        height=500,
+        height=500
     )
     st.plotly_chart(fig)
     st.subheader(
