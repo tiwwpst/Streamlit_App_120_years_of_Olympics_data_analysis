@@ -7,6 +7,7 @@ from matplotlib import rcParams
 import seaborn as sns
 import plotly.express as px
 import plotly.figure_factory as ff
+import statsmodels
 
 from Overview import (
     summer_mw_df,
