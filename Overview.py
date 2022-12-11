@@ -15,12 +15,8 @@ from streamlit_extras.add_vertical_space import add_vertical_space
 plt.style.use("ggplot")
 rcParams["figure.figsize"] = (12, 6)
 
-df = pd.read_csv(
-    "/Users/maximsukhoparov/PycharmProjects/Streamlit_App/athlete_events.csv"
-)
-regions = pd.read_csv(
-    "/Users/maximsukhoparov/PycharmProjects/Streamlit_App/noc_regions.csv"
-)
+df = pd.read_csv('athlete_events.csv')
+regions = pd.read_csv('noc_regions.csv')
 df = df.merge(regions, on="NOC", how="left")
 df.drop("notes", axis=1, inplace=True)
 
