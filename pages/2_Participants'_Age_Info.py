@@ -46,17 +46,16 @@ if options == "The Most Frequent Age":
 
 if options == "Age of Participants by Year":
     st.header("Age of Participants by Year")
-    fig = px.scatter(
-        participants_with_medal,
-        x="Year",
-        y="Age",
-        color="Sex",
-        marginal_y="violin",
-        trendline="ols",
-        template="simple_white",
-        width=900,
-        height=500
-    )
+    fig = px.scatter(participants_with_medal,
+                     x="Year",
+                     y="Age",
+                     color="Sex",
+                     marginal_y="violin",
+                     trendline="ols",
+                     template="simple_white",
+                     width=900,
+                     height=500
+                     )
     st.plotly_chart(fig)
     st.subheader(
         "You can see from this plot that the average age on teams has changed over the years. About a "
