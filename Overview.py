@@ -16,10 +16,10 @@ plt.style.use("ggplot")
 rcParams["figure.figsize"] = (12, 6)
 
 df = pd.read_csv(
-    "/Users/maximsukhoparov/Documents/Tim/hse/hse_dataset_analysis_project/athlete_events.csv"
+    "/Users/maximsukhoparov/PycharmProjects/Streamlit_App/athlete_events.csv"
 )
 regions = pd.read_csv(
-    "/Users/maximsukhoparov/Documents/Tim/hse/hse_dataset_analysis_project/noc_regions.csv"
+    "/Users/maximsukhoparov/PycharmProjects/Streamlit_App/noc_regions.csv"
 )
 df = df.merge(regions, on="NOC", how="left")
 df.drop("notes", axis=1, inplace=True)
