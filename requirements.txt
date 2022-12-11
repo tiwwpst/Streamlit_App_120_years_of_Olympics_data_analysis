@@ -4,4 +4,3 @@ numpy
 plotly
 seaborn
 streamlit_lottie
-iphyton
