@@ -56,7 +56,7 @@ def load_lottieurl(url: str):
 
 
 lottie_coding = load_lottiefile(
-    "/Users/maximsukhoparov/Downloads/68324-olympics-loader.json"
+    "/Users/maximsukhoparov/PycharmProjects/Streamlit_App/68324-olympics-loader.json"
 )
 lottie_hello = load_lottieurl(
     "https://assets6.lottiefiles.com/packages/lf20_iamb7tjt.json"
@@ -232,7 +232,7 @@ if options == 'Data Clean Up and Transformation':
         'From the NaN analysis, it is clear that there are many missing numbers, so I decided to replace NaN with the '
         'average of all the numbers in each column, respectively')
     lottie_coding = load_lottiefile(
-        "/Users/maximsukhoparov/Downloads/68324-olympics-loader.json"
+        "/Users/maximsukhoparov/PycharmProjects/Streamlit_App/99797-data-management.json"
     )
     lottie_hello = load_lottieurl(
         "https://assets10.lottiefiles.com/packages/lf20_9wpyhdzo.json"

@@ -119,7 +119,7 @@ if options == "The Number of Partcipating Countries":
 if options == "Top 20 Athletes of All Time":
     st.header("Top 20 athletes of all time")
     lottie_coding = load_lottiefile(
-        "/Users/maximsukhoparov/Downloads/70671-olympic-games-2021-road-cycling.json"
+        "/Users/maximsukhoparov/PycharmProjects/Streamlit_App/70671-olympic-games-2021-road-cycling.json"
     )
     lottie_hello = load_lottieurl(
         "https://assets4.lottiefiles.com/packages/lf20_tlbboysk.json"
