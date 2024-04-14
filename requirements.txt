@@ -8,3 +8,5 @@ seaborn==0.12.1
 statsmodels==0.13.5
 streamlit==1.33.0
 streamlit_lottie==0.0.5
+streamlit_extras
+
