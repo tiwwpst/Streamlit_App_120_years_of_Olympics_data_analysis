@@ -7,5 +7,5 @@ requests==2.28.1
 seaborn==0.12.1
 statsmodels==0.13.5
 streamlit==1.33.0
-streamlit_extras==0.2.4
-streamlit_lottie==0.0.3
+streamlit_extras
+streamlit_lottie
